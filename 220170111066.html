@@ -64,559 +64,978 @@
                 <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334"/>
             </div>
             <div>
-                <center>
-                    <table class="toptable">
-                        <tbody><tr>
-                            <td colspan="2" class="header">
-                                <div class="logo">
-                                    <a href="http://www.gtu.ac.in">
-                                        
-                                        <img src="Images/NewLogo.jpg" alt="GTU" border="0"></a>
-                                </div>
-                                <div style="width: 87%; float: right;">
-                                    <div style="vertical-align: top; float: right; text-align: right; width: 100%;" class="printdiv">
-                                         <a style="color: gray; font-size: 10px;" href="Default.aspx?ext=archive">Archive</a>  | Current <span style="color: maroon;"> [Summer 2024]</span>
-                                        
-                                        
-                                    </div>
-                                    <div class="Headingtext">
-                                        Gujarat Technological University Ahmedabad
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="Sline" colspan="2">
-                            </td>
-                        </tr>
-                        
-                        <tr>
-                            <td valign="top" width="50%" class="printdiv">
-                                <table width="100%" cellspacing="3" cellpadding="6" border="0" class="form-noindent">
-                                    <tbody>
-                                        <tr>
-                                            <td bgcolor="#e8eefa" align="center" valign="top">
-                                                <table class="Search" cellpadding="0" cellspacing="0">
-                                                    <tbody><tr>
-                                                        <td class="serchtext1" valign="middle" style="width: 80px;">
-                                                            <img src="Images/search.png" alt="" height="17px;" style="vertical-align: bottom;">
-                                                            SEARCH :
-                                                        </td>
-                                                        <td>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td style="height: 5px;" colspan="2">
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="tdodd">
-                                                            Session
-                                                        </td>
-                                                        <td>
-                                                            <span id="lblSession">Summer 2024</span>
-                                                            
-                                                            
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="tdodd">
-                                                            Exam
-                                                        </td>
-                                                        <td>
-                                                            <select name="ddlbatch" id="ddlbatch" class="ddl">
-            <option value="4276$S2024$2024-07-08$current$0">.....BE SEM 4 - Regular (OCT 2024)</option>
-        </select>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="tdodd">
-                                                            Enroll No.
-                                                        </td>
-                                                        <td>
-                                                            
-                                                            
-                                                            <input name="txtenroll" type="text" value="220170111066" maxlength="18" id="txtenroll" class="csstext" onkeypress="return numOnly(event)">&nbsp;OR
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="tdodd">
-                                                            Seat No.
-                                                        </td>
-                                                        <td>
-                                                            <input name="txtSheetNo" type="text" maxlength="18" id="txtSheetNo" class="csstext" onkeypress="return alphaNumOnly(event)">&nbsp;(e.g.
-                                                            _123456)
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="tdodd">
-                                                            Code :
-                                                        </td>
-                                                        <td>
-                                                            <table width="100%" cellpadding="0" cellspacing="0">
-                                                                <tbody><tr>
-                                                                    <td width="143px" align="right">
-                                                                        <div style="text-align: left; width: 150px; float: left; padding-top: 5px; vertical-align: middle;">
-                                                                            <img src="../Handler.ashx" id="imgCaptcha">
-                                                                            
-                                                                            <input type="image" name="imgref" id="imgref" src="images/refresh_24.png" alt="Refresh" onclick="javascript:RefreshCaptcha();" style="border-width:0px;">
-                                                                        </div>
-                                                                        <div style="width: 70px; text-align: left; float: left;">
-                                                                            <input name="CodeNumberTextBox" type="text" id="CodeNumberTextBox" class="csstext" style="width: 70px;
-                                                                                height: 30px; padding-top: 5px; margin-top: 5px;">
-                                                                        </div>
-                                                                        <input type="submit" name="btnSearch" value="Search" onclick="return Valsearch();" id="btnSearch" class="btn" maxlength="18" style="margin-top: 20px;">
-                                                                            <span id="lbl1"></span>
-                                                                    </td>
-                                                                </tr>
-                                                            </tbody></table>
-                                                        </td>
-                                                    </tr>
-                                                </tbody></table>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </td>
-                            <td valign="top">
-                                <table width="100%" cellspacing="3" cellpadding="6" border="0" class="form-noindent">
-                                    <tbody>
-                                        <tr>
-                                            <td bgcolor="#e8eefa" align="center" valign="top">
-                                                <table class="Search">
-                                                    <tbody><tr>
-                                                        <td class="serchtext" colspan="4">
-                                                            <img id="imgresult" src="Images/right-small.gif" style="border-width:0px;vertical-align: bottom; height: 15px;">
-                                                            SEARCH RESULT.:
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td style="height: 5px;" colspan="4">
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="Stdtxt tdodd">
-                                                            Name
-                                                        </td>
-                                                        <td colspan="3">
-                                                            <span id="lblName">MARU PRAYAG RAMESHBHAI</span>
-                                                        </td>
-                                                    </tr>
+        <center>
+            <table class="toptable">
+                <tbody><tr>
+                    <td colspan="2" class="header">
+                        <div class="logo">
+                            <a href="http://www.gtu.ac.in">
+                                
+                                <img src="Images/NewLogo.jpg" alt="GTU" border="0"></a>
+                        </div>
+                        <div style="width: 87%; float: right;">
+                            <div style="vertical-align: top; float: right; text-align: right; width: 100%;" class="printdiv">
+                                 <a style="color: gray; font-size: 10px;" href="Default.aspx?ext=archive">Archive</a>  | Current <span style="color: maroon;"> [Summer 2024]</span>
+                                
+                                
+                            </div>
+                            <div class="Headingtext">
+                                Gujarat Technological University Ahmedabad
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="Sline" colspan="2">
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td valign="top" width="50%" class="printdiv">
+                        <table width="100%" cellspacing="3" cellpadding="6" border="0" class="form-noindent">
+                            <tbody>
+                                <tr>
+                                    <td bgcolor="#e8eefa" align="center" valign="top">
+                                        <table class="Search" cellpadding="0" cellspacing="0">
+                                            <tbody><tr>
+                                                <td class="serchtext1" valign="middle" style="width: 80px;">
+                                                    <img src="Images/search.png" alt="" height="17px;" style="vertical-align: bottom;">
+                                                    SEARCH :
+                                                </td>
+                                                <td>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="height: 5px;" colspan="2">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="tdodd">
+                                                    Session
+                                                </td>
+                                                <td>
+                                                    <span id="lblSession">Summer 2024</span>
                                                     
-                                                    <tr id="tronlymap">
-            <td class="Stdtxt tdodd">
-                                                            Enrollment No.
-                                                        </td>
-            <td colspan="3">
-                                                            <span id="lblEnrollmentNo">220170111066</span>
-                                                        </td>
-        </tr>
-        
-                                                    <tr>
-                                                        <td class="Stdtxt tdodd">
-                                                            Exam Seat No.
-                                                        </td>
-                                                        <td>
-                                                            <span id="lblExam">220170111066</span>
-                                                        </td>
-                                                        <td class="Stdtxt tdodd">
-                                                            Declared On
-                                                        </td>
-                                                        <td>
-                                                            <span id="lblDeclaredOn">15 oct 2024</span>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="Stdtxt tdodd">
-                                                            Exam
-                                                        </td>
-                                                        <td colspan="3">
-                                                            <span id="lblExamName">BE SEM 4 - Regular (OCT 2024)</span>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="Stdtxt tdodd">
-                                                            Branch
-                                                        </td>
-                                                        <td colspan="3">
-                                                            <span id="lblBranchName">ELECTRONICS & COMMUNICATION ENGINEERING</span>
-                                                        </td>
-                                                    </tr>
-                                                </tbody></table>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="SlineG" colspan="2">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="height: 10px;">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td id="trResult" colspan="2" align="center">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="tdodd">
+                                                    Exam
+                                                </td>
+                                                <td>
+                                                    <select name="ddlbatch" id="ddlbatch" class="ddl">
+	<optgroup label="BA"></optgroup>
+	<option value="4340$S2024$2024-07-31$current$0">.....BA SEM 1 - Remedial (MAY 2024)</option>
+	<option value="4155$S2024$2024-06-14$current$0">.....BA SEM 10 - Regular (MAY 2024)</option>
+	<option value="4154$S2024$2024-06-14$current$0">.....BA SEM 10 - Remedial (MAY 2024)</option>
+	<option value="4332$S2024$2024-07-25$current$0">.....BA SEM 2 - Regular (MAY 2024)</option>
+	<option value="4331$S2024$2024-07-25$current$0">.....BA SEM 2 - Remedial (MAY 2024)</option>
+	<option value="4298$S2024$2024-07-10$current$0">.....BA SEM 3 - Remedial (MAY 2024)</option>
+	<option value="4276$S2024$2024-07-08$current$0">.....BA SEM 4 - Regular (MAY 2024)</option>
+	<option value="4275$S2024$2024-07-08$current$0">.....BA SEM 4 - Remedial (MAY 2024)</option>
+	<option value="4274$S2024$2024-07-06$current$0">.....BA SEM 5 - Remedial (MAY 2024)</option>
+	<option value="4263$S2024$2024-07-05$current$0">.....BA SEM 6 - Regular (MAY 2024)</option>
+	<option value="4262$S2024$2024-07-05$current$0">.....BA SEM 6 - Remedial (MAY 2024)</option>
+	<option value="4258$S2024$2024-07-04$current$0">.....BA SEM 8 - Regular (MAY 2024)</option>
+	<option value="4238$S2024$2024-06-27$current$0">.....BA SEM 9 - Remedial (MAY 2024)</option>
+	<optgroup label="BB"></optgroup>
+	<option value="4249$S2024$2024-06-29$current$0">.....BB SEM 1 - Remedial (MAY 2024)</option>
+	<option value="4248$S2024$2024-06-29$current$0">.....BB SEM 2 - Regular (MAY 2024)</option>
+	<option value="4247$S2024$2024-06-29$current$0">.....BB SEM 2 - Remedial (MAY 2024)</option>
+	<option value="4228$S2024$2024-06-26$current$0">.....BB SEM 3 - Remedial (MAY 2024)</option>
+	<option value="4216$S2024$2024-06-25$current$0">.....BB SEM 4 - Regular (MAY 2024)</option>
+	<optgroup label="BE"></optgroup>
+	<option selected="selected" value="4378$S2024$2024-08-31$current$0">.....BE SEM 4 - Regular (MAY 2024)</option>
+	<option value="4377$S2024$2024-08-31$current$0">.....BE SEM 4 - Remedial (MAY 2024)</option>
+	<option value="4319$S2024$2024-07-23$current$0">.....BE SEM 5 - Remedial (MAY 2024)</option>
+	<option value="4308$S2024$2024-07-15$current$0">.....BE SEM 6 - Regular (MAY 2024)</option>
+	<option value="4307$S2024$2024-07-15$current$0">.....BE SEM 6 - Remedial (MAY 2024)</option>
+	<option value="4257$S2024$2024-07-03$current$0">.....BE SEM 7 - Remedial (MAY 2024)</option>
+	<option value="4151$S2024$2024-06-11$current$0">.....BE SEM 8 - Regular (MAY 2024)</option>
+	<option value="4239$S2024$2024-06-27$current$0">.....BE SEM 8 - Remedial (MAY 2024)</option>
+	<optgroup label="BH"></optgroup>
+	<option value="4311$S2024$2024-07-18$current$0">.....BH SEM 1 - Remedial (MAY 2024)</option>
+	<option value="4310$S2024$2024-07-16$current$0">.....BH SEM 2 - Regular (MAY 2024)</option>
+	<option value="4309$S2024$2024-07-16$current$0">.....BH SEM 2 - Remedial (MAY 2024)</option>
+	<option value="4306$S2024$2024-07-15$current$0">.....BH SEM 3 - Remedial (MAY 2024)</option>
+	<option value="4297$S2024$2024-07-10$current$0">.....BH SEM 4 - Regular (MAY 2024)</option>
+	<option value="4296$S2024$2024-07-10$current$0">.....BH SEM 4 - Remedial (MAY 2024)</option>
+	<option value="4268$S2024$2024-07-05$current$0">.....BH SEM 5 - Remedial (MAY 2024)</option>
+	<option value="4251$S2024$2024-06-29$current$0">.....BH SEM 6 - Regular (MAY 2024)</option>
+	<option value="4250$S2024$2024-06-29$current$0">.....BH SEM 6 - Remedial (MAY 2024)</option>
+	<option value="4193$S2024$2024-06-20$current$0">.....BH SEM 7 - Remedial (MAY 2024)</option>
+	<option value="4156$S2024$2024-06-14$current$0">.....BH SEM 8 - Regular (MAY 2024)</option>
+	<optgroup label="BI"></optgroup>
+	<option value="4304$S2024$2024-07-16$current$0">.....BI SEM 1 - Remedial (MAY 2024)</option>
+	<option value="4303$S2024$2024-07-15$current$0">.....BI SEM 2 - Regular (MAY 2024)</option>
+	<option value="4273$S2024$2024-07-06$current$0">.....BI SEM 3 - Remedial (MAY 2024)</option>
+	<option value="4218$S2024$2024-06-26$current$0">.....BI SEM 4 - Regular (MAY 2024)</option>
+	<optgroup label="BN"></optgroup>
+	<option value="4371$S2024$2024-08-22$current$0">.....BN SEM 1 - Remedial (MAY 2024)</option>
+	<option value="4370$S2024$2024-08-20$current$0">.....BN SEM 2 - Regular (MAY 2024)</option>
+	<optgroup label="BPH"></optgroup>
+	<option value="4359$S2024$2024-08-13$current$0">.....BPH SEM 1 - Remedial (MAY 2024)</option>
+	<option value="4354$S2024$2024-08-08$current$0">.....BPH SEM 2 - Regular (MAY 2024)</option>
+	<option value="4353$S2024$2024-08-08$current$0">.....BPH SEM 2 - Remedial (MAY 2024)</option>
+	<option value="4352$S2024$2024-08-07$current$0">.....BPH SEM 3 - Remedial (MAY 2024)</option>
+	<option value="4350$S2024$2024-08-07$current$0">.....BPH SEM 4 - Regular (MAY 2024)</option>
+	<option value="4349$S2024$2024-08-07$current$0">.....BPH SEM 4 - Remedial (MAY 2024)</option>
+	<option value="4312$S2024$2024-07-18$current$0">.....BPH SEM 5 - Remedial (MAY 2024)</option>
+	<option value="4286$S2024$2024-07-08$current$0">.....BPH SEM 6 - Regular (MAY 2024)</option>
+	<option value="4285$S2024$2024-07-08$current$0">.....BPH SEM 6 - Remedial (MAY 2024)</option>
+	<option value="4225$S2024$2024-06-27$current$0">.....BPH SEM 7 - Remedial (MAY 2024)</option>
+	<option value="4200$S2024$2024-06-20$current$0">.....BPH SEM 8 - Regular (MAY 2024)</option>
+	<option value="4199$S2024$2024-06-20$current$0">.....BPH SEM 8 - Remedial (MAY 2024)</option>
+	<optgroup label="BV"></optgroup>
+	<option value="4315$S2024$2024-07-23$current$0">.....BV SEM 1 - Remedial (MAY 2024)</option>
+	<option value="4314$S2024$2024-07-22$current$0">.....BV SEM 2 - Regular (MAY 2024)</option>
+	<option value="4313$S2024$2024-07-22$current$0">.....BV SEM 2 - Remedial (MAY 2024)</option>
+	<option value="4243$S2024$2024-06-29$current$0">.....BV SEM 3 - Remedial (MAY 2024)</option>
+	<option value="4242$S2024$2024-06-29$current$0">.....BV SEM 4 - Regular (MAY 2024)</option>
+	<option value="4241$S2024$2024-06-29$current$0">.....BV SEM 4 - Remedial (MAY 2024)</option>
+	<option value="4186$S2024$2024-06-20$current$0">.....BV SEM 5 - Remedial (MAY 2024)</option>
+	<option value="4185$S2024$2024-06-19$current$0">.....BV SEM 6 - Regular (MAY 2024)</option>
+	<optgroup label="CS"></optgroup>
+	<option value="4261$S2024$2024-07-04$current$0">.....CS SEM 1 - Remedial (MAY 2024)</option>
+	<option value="4260$S2024$2024-07-04$current$0">.....CS SEM 2 - Regular (MAY 2024)</option>
+	<option value="4259$S2024$2024-07-04$current$0">.....CS SEM 2 - Remedial (MAY 2024)</option>
+	<option value="4192$S2024$2024-06-20$current$0">.....CS SEM 3 - Remedial (MAY 2024)</option>
+	<option value="4191$S2024$2024-06-20$current$0">.....CS SEM 4 - Regular (MAY 2024)</option>
+	<option value="4190$S2024$2024-06-20$current$0">.....CS SEM 5 - Remedial (MAY 2024)</option>
+	<option value="4174$S2024$2024-06-18$current$0">.....CS SEM 6 - Regular (MAY 2024)</option>
+	<optgroup label="DA"></optgroup>
+	<option value="4323$S2024$2024-08-23$current$0">.....DA SEM 1 - Remedial (MAY 2024)</option>
+	<option value="4322$S2024$2024-08-22$current$0">.....DA SEM 2 - Regular (MAY 2024)</option>
+	<option value="4321$S2024$2024-08-22$current$0">.....DA SEM 2 - Remedial (MAY 2024)</option>
+	<option value="4320$S2024$2024-07-24$current$0">.....DA SEM 3 - Remedial (MAY 2024)</option>
+	<option value="4299$S2024$2024-07-11$current$0">.....DA SEM 4 - Regular (MAY 2024)</option>
+	<option value="4194$S2024$2024-06-19$current$0">.....DA SEM 5 - Remedial (MAY 2024)</option>
+	<optgroup label="DB"></optgroup>
+	<option value="4172$S2024$2024-06-25$current$0">.....DB SEM 2 - Regular (MAY 2024)</option>
+	<optgroup label="DH"></optgroup>
+	<option value="4227$S2024$2024-06-26$current$0">.....DH SEM 1 - Remedial (MAY 2024)</option>
+	<option value="4202$S2024$2024-06-20$current$0">.....DH SEM 2 - Regular (MAY 2024)</option>
+	<option value="4201$S2024$2024-06-20$current$0">.....DH SEM 2 - Remedial (MAY 2024)</option>
+	<optgroup label="DIPL"></optgroup>
+	<option value="4368$S2024$2024-08-10$current$0">.....DIPL SEM 1 - Remedial (MAY 2024)</option>
+	<option value="4367$S2024$2024-08-10$current$0">.....DIPL SEM 2 - Regular (MAY 2024)</option>
+	<option value="4366$S2024$2024-08-10$current$0">.....DIPL SEM 2 - Remedial (MAY 2024)</option>
+	<option value="4351$S2024$2024-08-03$current$0">.....DIPL SEM 3 - Remedial (MAY 2024)</option>
+	<option value="4339$S2024$2024-07-30$current$0">.....DIPL SEM 4 - Regular (MAY 2024)</option>
+	<option value="4338$S2024$2024-07-30$current$0">.....DIPL SEM 4 - Remedial (MAY 2024)</option>
+	<option value="4302$S2024$2024-07-10$current$0">.....DIPL SEM 5 - Remedial (MAY 2024)</option>
+	<option value="4288$S2024$2024-07-06$current$0">.....DIPL SEM 6 - Regular (MAY 2024)</option>
+	<option value="4287$S2024$2024-07-06$current$0">.....DIPL SEM 6 - Remedial (MAY 2024)</option>
+	<option value="4265$S2024$2024-07-04$current$0">.....DIPL SEM 7 - Remedial (MAY 2024)</option>
+	<option value="4264$S2024$2024-07-04$current$0">.....DIPL SEM 8 - Regular (MAY 2024)</option>
+	<optgroup label="DPH"></optgroup>
+	<option value="4256$S2024$2024-07-04$current$0">.....D.Pharm Year 1 - Regular (MAY 2024)</option>
+	<option value="4255$S2024$2024-07-04$current$0">.....D.Pharm Year 1 - Remedial (MAY 2024)</option>
+	<option value="4214$S2024$2024-06-25$current$0">.....D.Pharm Year 2 - Regular (MAY 2024)</option>
+	<option value="4213$S2024$2024-06-25$current$0">.....D.Pharm Year 2 - Remedial (MAY 2024)</option>
+	<optgroup label="DS"></optgroup>
+	<option value="4189$S2024$2024-06-19$current$0">.....DS SEM 1 - Remedial (MAY 2024)</option>
+	<option value="4188$S2024$2024-06-19$current$0">.....DS SEM 2 - Regular (MAY 2024)</option>
+	<option value="4187$S2024$2024-06-19$current$0">.....DS SEM 2 - Remedial (MAY 2024)</option>
+	<optgroup label="DV"></optgroup>
+	<option value="4272$S2024$2024-07-08$current$0">.....DV SEM 1 - Remedial (MAY 2024)</option>
+	<option value="4245$S2024$2024-06-29$current$0">.....DV SEM 2 - Regular (MAY 2024)</option>
+	<option value="4244$S2024$2024-06-29$current$0">.....DV SEM 2 - Remedial (MAY 2024)</option>
+	<option value="4205$S2024$2024-06-20$current$0">.....DV SEM 3 - Remedial (MAY 2024)</option>
+	<option value="4183$S2024$2024-06-18$current$0">.....DV SEM 4 - Regular (MAY 2024)</option>
+	<option value="4182$S2024$2024-06-18$current$0">.....DV SEM 4 - Remedial (MAY 2024)</option>
+	<option value="4181$S2024$2024-06-18$current$0">.....DV SEM 5 - Remedial (MAY 2024)</option>
+	<option value="4159$S2024$2024-06-14$current$0">.....DV SEM 6 - Regular (MAY 2024)</option>
+	<optgroup label="EP"></optgroup>
+	<option value="4376$S2024$2024-08-23$current$0">.....EP SEM 1 - Remedial (MAY 2024)</option>
+	<option value="4375$S2024$2024-08-23$current$0">.....EP SEM 2 - Regular (MAY 2024)</option>
+	<option value="4374$S2024$2024-08-23$current$0">.....EP SEM 2 - Remedial (MAY 2024)</option>
+	<option value="4365$S2024$2024-08-14$current$0">.....EP SEM 3 - Remedial (MAY 2024)</option>
+	<option value="4364$S2024$2024-08-14$current$0">.....EP SEM 4 - Regular (MAY 2024)</option>
+	<option value="4363$S2024$2024-08-14$current$0">.....EP SEM 4 - Remedial (MAY 2024)</option>
+	<option value="4330$S2024$2024-07-25$current$0">.....EP SEM 5 - Remedial (MAY 2024)</option>
+	<option value="4290$S2024$2024-07-15$current$0">.....EP SEM 6 - Regular (MAY 2024)</option>
+	<optgroup label="FD"></optgroup>
+	<option value="4336$S2024$2024-07-29$current$0">.....Pharm.D Year 1 - Regular (MAY 2024)</option>
+	<option value="4335$S2024$2024-07-29$current$0">.....Pharm.D Year 1 - Remedial (MAY 2024)</option>
+	<option value="4334$S2024$2024-07-25$current$0">.....Pharm.D Year 2 - Regular (MAY 2024)</option>
+	<option value="4333$S2024$2024-07-25$current$0">.....Pharm.D Year 2 - Remedial (MAY 2024)</option>
+	<option value="4282$S2024$2024-07-08$current$0">.....Pharm.D Year 3 - Regular (MAY 2024)</option>
+	<option value="4281$S2024$2024-07-08$current$0">.....Pharm.D Year 3 - Remedial (MAY 2024)</option>
+	<option value="4280$S2024$2024-07-06$current$0">.....Pharm.D Year 4 - Regular (MAY 2024)</option>
+	<option value="4279$S2024$2024-07-06$current$0">.....Pharm.D Year 4 - Remedial (MAY 2024)</option>
+	<option value="4278$S2024$2024-07-06$current$0">.....Pharm.D Year 5 - Regular (MAY 2024)</option>
+	<option value="4277$S2024$2024-07-06$current$0">.....Pharm.D Year 5 - Remedial (MAY 2024)</option>
+	<option value="4150$S2024$2024-07-18$current$0">.....Pharm.D Year 6 - Regular (MAY 2024)</option>
+	<optgroup label="GD"></optgroup>
+	<option value="4168$S2024$2024-06-15$current$0">.....PGDDM SEM 2 - Regular (MAY 2024)</option>
+	<optgroup label="IB"></optgroup>
+	<option value="4252$S2024$2024-07-04$current$0">.....IB SEM 1 - Remedial (MAY 2024)</option>
+	<option value="4240$S2024$2024-06-28$current$0">.....IB SEM 2 - Regular (MAY 2024)</option>
+	<option value="4164$S2024$2024-06-25$current$0">.....IB SEM 4 - Regular (MAY 2024)</option>
+	<optgroup label="IC"></optgroup>
+	<option value="4300$S2024$2024-07-11$current$0">.....IC SEM 1 - Remedial (MAY 2024)</option>
+	<option value="4165$S2024$2024-06-15$current$0">.....IC SEM 10 - Regular (MAY 2024)</option>
+	<option value="4163$S2024$2024-06-15$current$0">.....IC SEM 10 - Remedial (MAY 2024)</option>
+	<option value="4270$S2024$2024-07-05$current$0">.....IC SEM 2 - Regular (MAY 2024)</option>
+	<option value="4269$S2024$2024-07-05$current$0">.....IC SEM 2 - Remedial (MAY 2024)</option>
+	<option value="4246$S2024$2024-06-29$current$0">.....IC SEM 3 - Remedial (MAY 2024)</option>
+	<option value="4223$S2024$2024-06-27$current$0">.....IC SEM 4 - Regular (MAY 2024)</option>
+	<option value="4222$S2024$2024-06-27$current$0">.....IC SEM 4 - Remedial (MAY 2024)</option>
+	<option value="4221$S2024$2024-06-27$current$0">.....IC SEM 5 - Remedial (MAY 2024)</option>
+	<option value="4220$S2024$2024-06-27$current$0">.....IC SEM 6 - Regular (MAY 2024)</option>
+	<option value="4219$S2024$2024-06-27$current$0">.....IC SEM 6 - Remedial (MAY 2024)</option>
+	<option value="4212$S2024$2024-06-25$current$0">.....IC SEM 7 - Remedial (MAY 2024)</option>
+	<option value="4211$S2024$2024-06-25$current$0">.....IC SEM 8 - Regular (MAY 2024)</option>
+	<option value="4210$S2024$2024-06-25$current$0">.....IC SEM 8 - Remedial (MAY 2024)</option>
+	<option value="4195$S2024$2024-06-19$current$0">.....IC SEM 9 - Remedial (MAY 2024)</option>
+	<optgroup label="IM"></optgroup>
+	<option value="4295$S2024$2024-07-11$current$0">.....IM SEM 2 - Regular (MAY 2024)</option>
+	<option value="4294$S2024$2024-07-11$current$0">.....IM SEM 2 - Remedial (MAY 2024)</option>
+	<option value="4254$S2024$2024-07-04$current$0">.....IM SEM 4 - Regular (MAY 2024)</option>
+	<optgroup label="MAM"></optgroup>
+	<option value="4344$S2024$2024-08-03$current$0">.....MAM SEM 1 - Remedial (MAY 2024)</option>
+	<option value="4343$S2024$2024-08-03$current$0">.....MAM SEM 2 - Regular (MAY 2024)</option>
+	<option value="4342$S2024$2024-08-03$current$0">.....MAM SEM 2 - Remedial (MAY 2024)</option>
+	<option value="4301$S2024$2024-07-11$current$0">.....MAM SEM 3 - Remedial (MAY 2024)</option>
+	<option value="4293$S2024$2024-07-10$current$0">.....MAM SEM 4 - Regular (MAY 2024)</option>
+	<option value="4292$S2024$2024-07-10$current$0">.....MAM SEM 4 - Remedial (MAY 2024)</option>
+	<option value="4289$S2024$2024-07-08$current$0">.....MAM SEM 5 - Remedial (MAY 2024)</option>
+	<option value="4209$S2024$2024-06-21$current$0">.....MAM SEM 6 - Regular (MAY 2024)</option>
+	<option value="4208$S2024$2024-06-21$current$0">.....MAM SEM 6 - Remedial (MAY 2024)</option>
+	<option value="4206$S2024$2024-06-21$current$0">.....MAM SEM 7 - Remedial (MAY 2024)</option>
+	<option value="4204$S2024$2024-06-20$current$0">.....MAM SEM 8 - Regular (MAY 2024)</option>
+	<option value="4203$S2024$2024-06-20$current$0">.....MAM SEM 8 - Remedial (MAY 2024)</option>
+	<option value="4170$S2024$2024-06-14$current$0">.....MBA(AM) SEM 10 - Regular (MAY 2024)</option>
+	<option value="4169$S2024$2024-06-14$current$0">.....MBA(AM) SEM 10 - Remedial (MAY 2024)</option>
+	<option value="4173$S2024$2024-06-18$current$0">.....MBA(AM) SEM 9 - Remedial (MAY 2024)</option>
+	<optgroup label="MBA"></optgroup>
+	<option value="4358$S2024$2024-08-09$current$0">.....MBA SEM 1 - Remedial (MAY 2024)</option>
+	<option value="4357$S2024$2024-08-08$current$0">.....MBA SEM 2 - Regular (MAY 2024)</option>
+	<option value="4356$S2024$2024-08-08$current$0">.....MBA SEM 2 - Remedial (MAY 2024)</option>
+	<option value="4291$S2024$2024-07-10$current$0">.....MBA SEM 3 - Remedial (MAY 2024)</option>
+	<option value="4267$S2024$2024-07-04$current$0">.....MBA SEM 4 - Regular (MAY 2024)</option>
+	<option value="4235$S2024$2024-06-28$current$0">.....MBA SEM 4 - Regular (MAY 2024)-(Only Branch 93)</option>
+	<option value="4167$S2024$2024-06-14$current$0">.....MBA SEM 4 - Regular (MAY 2024)-(Only Branch 94)</option>
+	<option value="4266$S2024$2024-07-04$current$0">.....MBA SEM 4 - Remedial (MAY 2024)</option>
+	<option value="4234$S2024$2024-06-28$current$0">.....MBA SEM 4 - Remedial (MAY 2024)-(Only Branch 93)</option>
+	<option value="4166$S2024$2024-06-14$current$0">.....MBA SEM 4 - Remedial (MAY 2024)-(Only Branch 94)</option>
+	<optgroup label="MCA"></optgroup>
+	<option value="4318$S2024$2024-07-22$current$0">.....MCA SEM 1 - Remedial (MAY 2024)</option>
+	<option value="4317$S2024$2024-07-22$current$0">.....MCA SEM 2 - Regular (MAY 2024)</option>
+	<option value="4316$S2024$2024-07-22$current$0">.....MCA SEM 2 - Remedial (MAY 2024)</option>
+	<option value="4271$S2024$2024-07-06$current$0">.....MCA SEM 3 - Remedial (MAY 2024)</option>
+	<option value="4180$S2024$2024-06-15$current$0">.....MCA SEM 4 - Regular (MAY 2024)</option>
+	<option value="4179$S2024$2024-06-15$current$0">.....MCA SEM 4 - Remedial (MAY 2024)</option>
+	<option value="4178$S2024$2024-06-15$current$0">.....MCA SEM 5 - Remedial (MAY 2024)</option>
+	<option value="4161$S2024$2024-06-15$current$0">.....MCA SEM 6 - Regular (MAY 2024)</option>
+	<option value="4160$S2024$2024-06-15$current$0">.....MCA SEM 6 - Remedial (MAY 2024)</option>
+	<optgroup label="ME"></optgroup>
+	<option value="4355$S2024$2024-08-09$current$0">.....ME SEM 1 - Remedial (MAY 2024)</option>
+	<option value="4346$S2024$2024-08-07$current$0">.....ME SEM 2 - Regular (MAY 2024)</option>
+	<option value="4345$S2024$2024-08-07$current$0">.....ME SEM 2 - Remedial (MAY 2024)</option>
+	<option value="4229$S2024$2024-06-29$current$0">.....ME SEM 3 - Remedial (MAY 2024)</option>
+	<option value="4158$S2024$2024-06-18$current$0">.....ME SEM 4 - Regular (MAY 2024)</option>
+	<option value="4157$S2024$2024-06-18$current$0">.....ME SEM 4 - Remedial (MAY 2024)</option>
+	<optgroup label="MH"></optgroup>
+	<option value="4198$S2024$2024-06-26$current$0">.....MH SEM 2 - Regular (MAY 2024)</option>
+	<option value="4197$S2024$2024-06-26$current$0">.....MH SEM 2 - Remedial (MAY 2024)</option>
+	<option value="4196$S2024$2024-06-25$current$0">.....MH SEM 3 - Remedial (MAY 2024)</option>
+	<option value="4171$S2024$2024-06-19$current$0">.....MH SEM 4 - Regular (MAY 2024)</option>
+	<optgroup label="MN"></optgroup>
+	<option value="4369$S2024$2024-08-14$current$0">.....MN SEM 5 - Remedial (MAY 2024)</option>
+	<option value="4348$S2024$2024-08-03$current$0">.....MN SEM 6 - Regular (MAY 2024)</option>
+	<option value="4347$S2024$2024-08-03$current$0">.....MN SEM 6 - Remedial (MAY 2024)</option>
+	<option value="4341$S2024$2024-07-31$current$0">.....MN SEM 7 - Remedial (MAY 2024)</option>
+	<optgroup label="MPH"></optgroup>
+	<option value="4329$S2024$2024-07-24$current$0">.....MPH SEM 1 - Remedial (MAY 2024)</option>
+	<option value="4328$S2024$2024-07-24$current$0">.....MPH SEM 2 - Regular (MAY 2024)</option>
+	<option value="4327$S2024$2024-07-24$current$0">.....MPH SEM 2 - Remedial (MAY 2024)</option>
+	<option value="4215$S2024$2024-06-25$current$0">.....MPH SEM 3 - Remedial (MAY 2024)</option>
+	<option value="4153$S2024$2024-06-14$current$0">.....MPH SEM 4 - Regular (MAY 2024)</option>
+	<option value="4152$S2024$2024-06-19$current$0">.....MPH SEM 4 - Remedial (MAY 2024)</option>
+	<optgroup label="MR"></optgroup>
+	<option value="4226$S2024$2024-07-09$current$0">.....MR SEM 2 - Regular (MAY 2024)</option>
+	<option value="4162$S2024$2024-06-18$current$0">.....MR SEM 4 - Regular (MAY 2024)</option>
+	<optgroup label="MV"></optgroup>
+	<option value="4233$S2024$2024-06-28$current$0">.....MBA(PART TIME) SEM 1 - Remedial (MAY 2024)</option>
+	<option value="4232$S2024$2024-06-28$current$0">.....MBA(PART TIME) SEM 2 - Remedial (MAY 2024)</option>
+	<option value="4231$S2024$2024-06-28$current$0">.....MBA(PART TIME) SEM 3 - Remedial (MAY 2024)</option>
+	<option value="4230$S2024$2024-06-28$current$0">.....MBA(PART TIME) SEM 4 - Regular (MAY 2024)</option>
+	<option value="4177$S2024$2024-06-18$current$0">.....MBA(PART TIME) SEM 5 - Remedial (MAY 2024)</option>
+	<option value="4176$S2024$2024-06-18$current$0">.....MBA(PART TIME) SEM 6 - Regular (MAY 2024)</option>
+	<option value="4175$S2024$2024-06-18$current$0">.....MBA(PART TIME) SEM 6 - Remedial (MAY 2024)</option>
+	<optgroup label="PB"></optgroup>
+	<option value="4237$S2024$2024-06-29$current$0">.....Pharm.D(PB) Year 1 - Regular (MAY 2024)</option>
+	<option value="4236$S2024$2024-06-29$current$0">.....Pharm.D(PB) Year 1 - Remedial (MAY 2024)</option>
+	<option value="4224$S2024$2024-06-26$current$0">.....Pharm.D(PB) Year 2 - Regular (MAY 2024)</option>
+	<option value="4337$S2024$2024-08-03$current$0">.....Pharm.D(PB) Year 3 - Regular (MAY 2024)</option>
+	<optgroup label="PDDC"></optgroup>
+	<option value="4373$S2024$2024-08-23$current$0">.....PDDC SEM 1 - Remedial (MAY 2024)</option>
+	<option value="4372$S2024$2024-08-23$current$0">.....PDDC SEM 2 - Remedial (MAY 2024)</option>
+	<option value="4362$S2024$2024-08-14$current$0">.....PDDC SEM 3 - Remedial (MAY 2024)</option>
+	<option value="4361$S2024$2024-08-14$current$0">.....PDDC SEM 4 - Regular (MAY 2024)</option>
+	<option value="4360$S2024$2024-08-14$current$0">.....PDDC SEM 4 - Remedial (MAY 2024)</option>
+	<option value="4326$S2024$2024-07-25$current$0">.....PDDC SEM 5 - Remedial (MAY 2024)</option>
+	<option value="4284$S2024$2024-07-15$current$0">.....PDDC SEM 6 - Regular (MAY 2024)</option>
+	<option value="4283$S2024$2024-07-15$current$0">.....PDDC SEM 6 - Remedial (MAY 2024)</option>
+	<option value="4217$S2024$2024-06-25$current$0">.....PDDC SEM 7 - Remedial (MAY 2024)</option>
+	<option value="4184$S2024$2024-06-15$current$0">.....PDDC SEM 8 - Regular (MAY 2024)</option>
+	<option value="4207$S2024$2024-06-24$current$0">.....PDDC SEM 8 - Remedial (MAY 2024)</option>
+
+</select>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="tdodd">
+                                                    Enroll No.
+                                                </td>
+                                                <td>
+                                                    
+                                                    
+                                                    <input name="txtenroll" type="text" value="220170111066" maxlength="18" id="txtenroll" class="csstext" onkeypress="return numOnly(event)">&nbsp;OR
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="tdodd">
+                                                    Seat No.
+                                                </td>
+                                                <td>
+                                                    <input name="txtSheetNo" type="text" maxlength="18" id="txtSheetNo" class="csstext" onkeypress="return alphaNumOnly(event)">&nbsp;(e.g.
+                                                    _123456)
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="tdodd">
+                                                    Code :
+                                                </td>
+                                                <td>
+                                                    <table width="100%" cellpadding="0" cellspacing="0">
+                                                        <tbody><tr>
+                                                            <td width="143px" align="right">
+                                                                <div style="text-align: left; width: 150px; float: left; padding-top: 5px; vertical-align: middle;">
+                                                                    <img src="../Handler.ashx" id="imgCaptcha">
+                                                                    
+                                                                    <input type="image" name="imgref" id="imgref" src="images/refresh_24.png" alt="Refresh" onclick="javascript:RefreshCaptcha();" style="border-width:0px;">
+                                                                </div>
+                                                                <div style="width: 70px; text-align: left; float: left;">
+                                                                    <input name="CodeNumberTextBox" type="text" id="CodeNumberTextBox" class="csstext" style="width: 70px;
+                                                                        height: 30px; padding-top: 5px; margin-top: 5px;">
+                                                                </div>
+                                                                <input type="submit" name="btnSearch" value="Search" onclick="return Valsearch();" id="btnSearch" class="btn" maxlength="18" style="margin-top: 20px;">
+                                                                    <span id="lbl1"></span>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody></table>
+                                                </td>
+                                            </tr>
+                                        </tbody></table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                    <td valign="top">
+                        <table width="100%" cellspacing="3" cellpadding="6" border="0" class="form-noindent">
+                            <tbody>
+                                <tr>
+                                    <td bgcolor="#e8eefa" align="center" valign="top">
+                                        <table class="Search">
+                                            <tbody><tr>
+                                                <td class="serchtext" colspan="4">
+                                                    <img id="imgresult" src="Images/right-small.gif" style="border-width:0px;vertical-align: bottom; height: 15px;">
+                                                    SEARCH RESULT.:
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="height: 5px;" colspan="4">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="Stdtxt tdodd">
+                                                    Name
+                                                </td>
+                                                <td colspan="3">
+                                                    <span id="lblName">MARU PRAYAG RAMESHBHAI</span>
+                                                </td>
+                                            </tr>
+                                            
+                                            <tr id="tronlymap">
+	<td class="Stdtxt tdodd">
+                                                    Enrollment No.
+                                                </td>
+	<td colspan="3">
+                                                    <span id="lblEnrollmentNo">220170111066</span>
+                                                </td>
+</tr>
+
+                                            <tr>
+                                                <td class="Stdtxt tdodd">
+                                                    Exam Seat No.
+                                                </td>
+                                                <td>
+                                                    <span id="lblExam">220170111066</span>
+                                                </td>
+                                                <td class="Stdtxt tdodd">
+                                                    Declared On
+                                                </td>
+                                                <td>
+                                                    <span id="lblDeclaredOn">31 Aug 2024</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="Stdtxt tdodd">
+                                                    Exam
+                                                </td>
+                                                <td colspan="3">
+                                                    <span id="lblExamName">BE SEM 4 - Regular (MAY 2024)</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="Stdtxt tdodd">
+                                                    Branch
+                                                </td>
+                                                <td colspan="3">
+                                                    <span id="lblBranchName">ELECTRONICS &amp; COMMUNICATION ENGINEERING</span>
+                                                </td>
+                                            </tr>
+                                        </tbody></table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="SlineG" colspan="2">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="height: 10px;">
+                    </td>
+                </tr>
+                <tr>
+                    <td id="trResult" colspan="2" align="center">
+                        
+                        
+                        <div id="tblMR_DI">
+	
+                            <table class="Rgrid" cellpadding="0" cellspacing="0">
+                                <tbody><tr class="ghead">
+                                    <td width="8%">
+                                        SUBJECT CODE
+                                    </td>
+                                    <td width="40%">
+                                        SUBJECT NAME
+                                    </td>
+                                    <td width="8%">
+                                        ESE ABSENT
+                                    </td>
+                                   <td width="19%">
+                                        Theory Grade
+                                        <br>
+                                        <table cellpadding="0" cellspacing="0" class="SubTab" style="border: 1px;">
+                                            <tbody><tr>
+                                                <td style="text-align: center;" width="6%">
+                                                    ESE
+                                                </td>
+                                                
+                                                <td style="text-align: center;" width="7%">
+                                                    PA/CA
+                                                </td>
+                                                
+                                                <td style="text-align: center;" width="6%">
+                                                    TOTAL
+                                                </td>
+                                            </tr>
+                                        </tbody></table>
+                                    </td>
+                                    <td width="19%">
+                                        Practical Grade
+                                        <br>
+                                        <table cellpadding="0" cellspacing="0" class="SubTab" style="border: 1px;">
+                                            <tbody><tr>
+                                                 <td style="text-align: center;" width="6%">
+                                                    ESE
+                                                </td>
+                                              
+                                                 <td style="text-align: center;" width="7%">
+                                                    PA/CA
+                                                </td>
+                                               
+                                                <td style="text-align: center;" width="6%">
+                                                    TOTAL
+                                                </td>
+                                            </tr>
+                                        </tbody></table>
+                                    </td>
+                                    <td width="18%">
+                                        Subject Grade
+                                    </td>
+                                </tr>
+                            </tbody></table>
+                            <table class="Rgrid" cellpadding="0" cellspacing="0">
                                 
-                                
-                                <div id="tblMR_DI">
-            
-                                    <table class="Rgrid" cellpadding="0" cellspacing="0">
-                                        <tbody><tr class="ghead">
+                                        <tbody><tr>
                                             <td width="8%">
-                                                SUBJECT CODE
+                                                3140005
                                             </td>
-                                            <td width="40%">
-                                                SUBJECT NAME
+                                            <td style="text-align: left;" width="39%">
+                                                Design Engineering 1 B
                                             </td>
                                             <td width="8%">
-                                                ESE ABSENT
+                                                -
                                             </td>
-                                           <td width="19%">
-                                                Theory Grade
-                                                <br>
+                                            <td width="19%">
                                                 <table cellpadding="0" cellspacing="0" class="SubTab" style="border: 1px;">
                                                     <tbody><tr>
                                                         <td style="text-align: center;" width="6%">
-                                                            ESE
+                                                            -
                                                         </td>
-                                                        
+                                                       
                                                         <td style="text-align: center;" width="7%">
-                                                            PA/CA
+                                                            -
                                                         </td>
-                                                        
-                                                        <td style="text-align: center;" width="6%">
-                                                            TOTAL
+                                                       
+                                                       <td style="text-align: center;" width="6%">
+                                                            -
                                                         </td>
                                                     </tr>
                                                 </tbody></table>
                                             </td>
                                             <td width="19%">
-                                                Practical Grade
-                                                <br>
                                                 <table cellpadding="0" cellspacing="0" class="SubTab" style="border: 1px;">
                                                     <tbody><tr>
-                                                         <td style="text-align: center;" width="6%">
-                                                            ESE
+                                                      <td style="text-align: center;" width="6%">
+                                                            AA
                                                         </td>
-                                                      
-                                                         <td style="text-align: center;" width="7%">
-                                                            PA/CA
+                                                        
+                                                       <td style="text-align: center;" width="7%">
+                                                            AB
                                                         </td>
-                                                       
+                                                        
                                                         <td style="text-align: center;" width="6%">
-                                                            TOTAL
+                                                            AA
                                                         </td>
                                                     </tr>
                                                 </tbody></table>
                                             </td>
                                             <td width="18%">
-                                                Subject Grade
+                                                AA
                                             </td>
                                         </tr>
-                                    </tbody></table>
-                                    <table class="Rgrid" cellpadding="0" cellspacing="0">
-                                        
-                                                <tbody><tr>
-                                                    <td width="8%">
-                                                        3140005
-                                                    </td>
-                                                    <td style="text-align: left;" width="39%">
-                                                       Design Engineering-1B
-                                                    </td>
-                                                    <td width="8%">
-                                                        -
-                                                    </td>
-                                                    <td width="19%">
-                                                        <table cellpadding="0" cellspacing="0" class="SubTab" style="border: 1px;">
-                                                            <tbody><tr>
-                                                                <td style="text-align: center;" width="6%">
-                                                                    -
-                                                                </td>
-                                                               
-                                                                <td style="text-align: center;" width="7%">
-                                                                    -
-                                                                </td>
-                                                               
-                                                               <td style="text-align: center;" width="6%">
-                                                                    -
-                                                                </td>
-                                                            </tr>
-                                                        </tbody></table>
-                                                    </td>
-                                                    <td width="19%">
-                                                        <table cellpadding="0" cellspacing="0" class="SubTab" style="border: 1px;">
-                                                            <tbody><tr>
-                                                              <td style="text-align: center;" width="6%">
-                                                                    BC
-                                                                </td>
-                                                                
-                                                               <td style="text-align: center;" width="7%">
-                                                                    AA
-                                                                </td>
-                                                                
-                                                                <td style="text-align: center;" width="6%">
-                                                                    BC
-                                                                </td>
-                                                            </tr>
-                                                        </tbody></table>
-                                                    </td>
-                                                    <td width="18%">
-                                                        BC
-                                                    </td>
-                                                </tr>
-                                            
-                                                <tr>
-                                                    <td width="8%">
-                                                        3141009
-                                                    </td>
-                                                    <td style="text-align: left;" width="39%">
-                                                        Electro Magnetic Theory
-                                                    </td>
-                                                    <td width="8%">
-                                                        -
-                                                    </td>
-                                                    <td width="19%">
-                                                        <table cellpadding="0" cellspacing="0" class="SubTab" style="border: 1px;">
-                                                            <tbody><tr>
-                                                                <td style="text-align: center;" width="6%">
-                                                                    AA
-                                                                </td>
-                                                               
-                                                                <td style="text-align: center;" width="7%">
-                                                                    BB
-                                                                </td>
-                                                               
-                                                               <td style="text-align: center;" width="6%">
-                                                                    AA
-                                                                </td>
-                                                            </tr>
-                                                        </tbody></table>
-                                                    </td>
-                                                    <td width="19%">
-                                                        <table cellpadding="0" cellspacing="0" class="SubTab" style="border: 1px;">
-                                                            <tbody><tr>
-                                                              <td style="text-align: center;" width="6%">
-                                                                    AB
-                                                                </td>
-                                                                
-                                                               <td style="text-align: center;" width="7%">
-                                                                    AB
-                                                                </td>
-                                                                
-                                                                <td style="text-align: center;" width="6%">
-                                                                    AB
-                                                                </td>
-                                                            </tr>
-                                                        </tbody></table>
-                                                    </td>
-                                                    <td width="18%">
-                                                        AA
-                                                    </td>
-                                                </tr>
-                                            
-                                                <tr>
-                                                    <td width="8%">
-                                                        3141008
-                                                    </td>
-                                                    <td style="text-align: left;" width="39%">
-                                                        Microprocessor And Microcontroller
-                                                    </td>
-                                                    <td width="8%">
-                                                        -
-                                                    </td>
-                                                    <td width="19%">
-                                                        <table cellpadding="0" cellspacing="0" class="SubTab" style="border: 1px;">
-                                                            <tbody><tr>
-                                                                <td style="text-align: center;" width="6%">
-                                                                    BB
-                                                                </td>
-                                                               
-                                                                <td style="text-align: center;" width="7%">
-                                                                    CD
-                                                                </td>
-                                                               
-                                                               <td style="text-align: center;" width="6%">
-                                                                    BC
-                                                                </td>
-                                                            </tr>
-                                                        </tbody></table>
-                                                    </td>
-                                                    <td width="19%">
-                                                        <table cellpadding="0" cellspacing="0" class="SubTab" style="border: 1px;">
-                                                            <tbody><tr>
-                                                              <td style="text-align: center;" width="6%">
-                                                                    AA
-                                                                </td>
-                                                                
-                                                               <td style="text-align: center;" width="7%">
-                                                                    BC
-                                                                </td>
-                                                                
-                                                                <td style="text-align: center;" width="6%">
-                                                                    AB
-                                                                </td>
-                                                            </tr>
-                                                        </tbody></table>
-                                                    </td>
-                                                    <td width="18%">
-                                                        BB
-                                                    </td>
-                                                </tr>
-                                            
-                                                <tr>
-                                                    <td width="8%">
-                                                        3141002
-                                                    </td>
-                                                    <td style="text-align: left;" width="39%">
-                                                        Analog Circuit Design
-                                                    </td>
-                                                    <td width="8%">
-                                                        -
-                                                    </td>
-                                                    <td width="19%">
-                                                        <table cellpadding="0" cellspacing="0" class="SubTab" style="border: 1px;">
-                                                            <tbody><tr>
-                                                                <td style="text-align: center;" width="6%">
-                                                                    BC
-                                                                </td>
-                                                               
-                                                                <td style="text-align: center;" width="7%">
-                                                                    CD
-                                                                </td>
-                                                               
-                                                               <td style="text-align: center;" width="6%">
-                                                                    CC
-                                                                </td>
-                                                            </tr>
-                                                        </tbody></table>
-                                                    </td>
-                                                    <td width="19%">
-                                                        <table cellpadding="0" cellspacing="0" class="SubTab" style="border: 1px;">
-                                                            <tbody><tr>
-                                                              <td style="text-align: center;" width="6%">
-                                                                    BB
-                                                                </td>
-                                                                
-                                                               <td style="text-align: center;" width="7%">
-                                                                    BB
-                                                                </td>
-                                                                
-                                                                <td style="text-align: center;" width="6%">
-                                                                    BB
-                                                                </td>
-                                                            </tr>
-                                                        </tbody></table>
-                                                    </td>
-                                                    <td width="18%">
-                                                        BC
-                                                    </td>
-                                                </tr>
-                                            
-                                                <tr>
-                                                    <td width="8%">
-                                                        3141005
-                                                    </td>
-                                                    <td style="text-align: left;" width="39%">
-                                                        Signals And Systems
-        
-                                                    </td>
-                                                    <td width="8%">
-                                                        -
-                                                    </td>
-                                                    <td width="19%">
-                                                        <table cellpadding="0" cellspacing="0" class="SubTab" style="border: 1px;">
-                                                            <tbody><tr>
-                                                                <td style="text-align: center;" width="6%">
-                                                                    BB
-                                                                </td>
-                                                               
-                                                                <td style="text-align: center;" width="7%">
-                                                                    CC
-                                                                </td>
-                                                               
-                                                               <td style="text-align: center;" width="6%">
-                                                                    BC
-                                                                </td>
-                                                            </tr>
-                                                        </tbody></table>
-                                                    </td>
-                                                    <td width="19%">
-                                                        <table cellpadding="0" cellspacing="0" class="SubTab" style="border: 1px;">
-                                                            <tbody><tr>
-                                                              <td style="text-align: center;" width="6%">
-                                                                    AA
-                                                                </td>
-                                                                
-                                                               <td style="text-align: center;" width="7%">
-                                                                    BB
-                                                                </td>
-                                                                
-                                                                <td style="text-align: center;" width="6%">
-                                                                    AB
-                                                                </td>
-                                                            </tr>
-                                                        </tbody></table>
-                                                    </td>
-                                                    <td width="18%">
-                                                        BB
-                                                    </td>
-                                                </tr>
-                                            
-                                                <tr>
-                                                    <td width="8%">
-                                                        3141007
-                                                    </td>
-                                                    <td style="text-align: left;" width="39%">
-                                                        Professional Ethics
-                                                    </td>
-                                                    <td width="8%">
-                                                        -
-                                                    </td>
-                                                    <td width="19%">
-                                                        <table cellpadding="0" cellspacing="0" class="SubTab" style="border: 1px;">
-                                                            <tbody><tr>
-                                                                <td style="text-align: center;" width="6%">
-                                                                    CC
-                                                                </td>
-                                                               
-                                                                <td style="text-align: center;" width="7%">
-                                                                    AA
-                                                                </td>
-                                                               
-                                                               <td style="text-align: center;" width="6%">
-                                                                    BC
-                                                                </td>
-                                                            </tr>
-                                                        </tbody></table>
-                                                    </td>
-                                                    <td width="19%">
-                                                        <table cellpadding="0" cellspacing="0" class="SubTab" style="border: 1px;">
-                                                            <tbody><tr>
-                                                              <td style="text-align: center;" width="6%">
-                                                                    AA
-                                                                </td>
-                                                                
-                                                               <td style="text-align: center;" width="7%">
-                                                                    AA
-                                                                </td>
-                                                                
-                                                                <td style="text-align: center;" width="6%">
-                                                                    AA
-                                                                </td>
-                                                            </tr>
-                                                        </tbody></table>
-                                                    </td>
-                                                    <td width="18%">
-                                                        BB
-                                                    </td>
-                                                </tr>
-                                            
-                                    </tbody></table>
+                                    
+                                        <tr>
+                                            <td width="8%">
+                                                3141002
+                                            </td>
+                                            <td style="text-align: left;" width="39%">
+                                                Analog Circuit Design
+                                            </td>
+                                            <td width="8%">
+                                                -
+                                            </td>
+                                            <td width="19%">
+                                                <table cellpadding="0" cellspacing="0" class="SubTab" style="border: 1px;">
+                                                    <tbody><tr>
+                                                        <td style="text-align: center;" width="6%">
+                                                            BC
+                                                        </td>
+                                                       
+                                                        <td style="text-align: center;" width="7%">
+                                                            BC
+                                                        </td>
+                                                       
+                                                       <td style="text-align: center;" width="6%">
+                                                            BC
+                                                        </td>
+                                                    </tr>
+                                                </tbody></table>
+                                            </td>
+                                            <td width="19%">
+                                                <table cellpadding="0" cellspacing="0" class="SubTab" style="border: 1px;">
+                                                    <tbody><tr>
+                                                      <td style="text-align: center;" width="6%">
+                                                            BB
+                                                        </td>
+                                                        
+                                                       <td style="text-align: center;" width="7%">
+                                                            AB
+                                                        </td>
+                                                        
+                                                        <td style="text-align: center;" width="6%">
+                                                            BB
+                                                        </td>
+                                                    </tr>
+                                                </tbody></table>
+                                            </td>
+                                            <td width="18%">
+                                                BC
+                                            </td>
+                                        </tr>
+                                    
+                                        <tr>
+                                            <td width="8%">
+                                                3141005
+                                            </td>
+                                            <td style="text-align: left;" width="39%">
+                                                Signal &amp; Systems
+                                            </td>
+                                            <td width="8%">
+                                                -
+                                            </td>
+                                            <td width="19%">
+                                                <table cellpadding="0" cellspacing="0" class="SubTab" style="border: 1px;">
+                                                    <tbody><tr>
+                                                        <td style="text-align: center;" width="6%">
+                                                            BB
+                                                        </td>
+                                                       
+                                                        <td style="text-align: center;" width="7%">
+                                                            BB
+                                                        </td>
+                                                       
+                                                       <td style="text-align: center;" width="6%">
+                                                            BB
+                                                        </td>
+                                                    </tr>
+                                                </tbody></table>
+                                            </td>
+                                            <td width="19%">
+                                                <table cellpadding="0" cellspacing="0" class="SubTab" style="border: 1px;">
+                                                    <tbody><tr>
+                                                      <td style="text-align: center;" width="6%">
+                                                            AA
+                                                        </td>
+                                                        
+                                                       <td style="text-align: center;" width="7%">
+                                                            AA
+                                                        </td>
+                                                        
+                                                        <td style="text-align: center;" width="6%">
+                                                            AA
+                                                        </td>
+                                                    </tr>
+                                                </tbody></table>
+                                            </td>
+                                            <td width="18%">
+                                                BB
+                                            </td>
+                                        </tr>
+                                    
+                                        <tr>
+                                            <td width="8%">
+                                                3141007
+                                            </td>
+                                            <td style="text-align: left;" width="39%">
+                                                Professional Ethics
+                                            </td>
+                                            <td width="8%">
+                                                -
+                                            </td>
+                                            <td width="19%">
+                                                <table cellpadding="0" cellspacing="0" class="SubTab" style="border: 1px;">
+                                                    <tbody><tr>
+                                                        <td style="text-align: center;" width="6%">
+                                                            BC
+                                                        </td>
+                                                       
+                                                        <td style="text-align: center;" width="7%">
+                                                            CD
+                                                        </td>
+                                                       
+                                                       <td style="text-align: center;" width="6%">
+                                                            CC
+                                                        </td>
+                                                    </tr>
+                                                </tbody></table>
+                                            </td>
+                                            <td width="19%">
+                                                <table cellpadding="0" cellspacing="0" class="SubTab" style="border: 1px;">
+                                                    <tbody><tr>
+                                                      <td style="text-align: center;" width="6%">
+                                                            -
+                                                        </td>
+                                                        
+                                                       <td style="text-align: center;" width="7%">
+                                                            -
+                                                        </td>
+                                                        
+                                                        <td style="text-align: center;" width="6%">
+                                                            -
+                                                        </td>
+                                                    </tr>
+                                                </tbody></table>
+                                            </td>
+                                            <td width="18%">
+                                                CC
+                                            </td>
+                                        </tr>
+                                    
+                                        <tr>
+                                            <td width="8%">
+                                                3141008
+                                            </td>
+                                            <td style="text-align: left;" width="39%">
+                                                Microprocessor &amp; Microcontroller
+                                            </td>
+                                            <td width="8%">
+                                                -
+                                            </td>
+                                            <td width="19%">
+                                                <table cellpadding="0" cellspacing="0" class="SubTab" style="border: 1px;">
+                                                    <tbody><tr>
+                                                        <td style="text-align: center;" width="6%">
+                                                            CC
+                                                        </td>
+                                                       
+                                                        <td style="text-align: center;" width="7%">
+                                                            CC
+                                                        </td>
+                                                       
+                                                       <td style="text-align: center;" width="6%">
+                                                            CC
+                                                        </td>
+                                                    </tr>
+                                                </tbody></table>
+                                            </td>
+                                            <td width="19%">
+                                                <table cellpadding="0" cellspacing="0" class="SubTab" style="border: 1px;">
+                                                    <tbody><tr>
+                                                      <td style="text-align: center;" width="6%">
+                                                            AB
+                                                        </td>
+                                                        
+                                                       <td style="text-align: center;" width="7%">
+                                                            AB
+                                                        </td>
+                                                        
+                                                        <td style="text-align: center;" width="6%">
+                                                            AB
+                                                        </td>
+                                                    </tr>
+                                                </tbody></table>
+                                            </td>
+                                            <td width="18%">
+                                                BC
+                                            </td>
+                                        </tr>
+                                    
+                                        <tr>
+                                            <td width="8%">
+                                                3141009
+                                            </td>
+                                            <td style="text-align: left;" width="39%">
+                                                Electromagnetic Theory
+                                            </td>
+                                            <td width="8%">
+                                                -
+                                            </td>
+                                            <td width="19%">
+                                                <table cellpadding="0" cellspacing="0" class="SubTab" style="border: 1px;">
+                                                    <tbody><tr>
+                                                        <td style="text-align: center;" width="6%">
+                                                            CC
+                                                        </td>
+                                                       
+                                                        <td style="text-align: center;" width="7%">
+                                                            CD
+                                                        </td>
+                                                       
+                                                       <td style="text-align: center;" width="6%">
+                                                            CC
+                                                        </td>
+                                                    </tr>
+                                                </tbody></table>
+                                            </td>
+                                            <td width="19%">
+                                                <table cellpadding="0" cellspacing="0" class="SubTab" style="border: 1px;">
+                                                    <tbody><tr>
+                                                      <td style="text-align: center;" width="6%">
+                                                            -
+                                                        </td>
+                                                        
+                                                       <td style="text-align: center;" width="7%">
+                                                            -
+                                                        </td>
+                                                        
+                                                        <td style="text-align: center;" width="6%">
+                                                            -
+                                                        </td>
+                                                    </tr>
+                                                </tbody></table>
+                                            </td>
+                                            <td width="18%">
+                                                CC
+                                            </td>
+                                        </tr>
+                                    
+                                        <tr>
+                                            <td width="8%">
+                                                3141010
+                                            </td>
+                                            <td style="text-align: left;" width="39%">
+                                                Electronic Measurement Laboratory
+                                            </td>
+                                            <td width="8%">
+                                                -
+                                            </td>
+                                            <td width="19%">
+                                                <table cellpadding="0" cellspacing="0" class="SubTab" style="border: 1px;">
+                                                    <tbody><tr>
+                                                        <td style="text-align: center;" width="6%">
+                                                            -
+                                                        </td>
+                                                       
+                                                        <td style="text-align: center;" width="7%">
+                                                            -
+                                                        </td>
+                                                       
+                                                       <td style="text-align: center;" width="6%">
+                                                            -
+                                                        </td>
+                                                    </tr>
+                                                </tbody></table>
+                                            </td>
+                                            <td width="19%">
+                                                <table cellpadding="0" cellspacing="0" class="SubTab" style="border: 1px;">
+                                                    <tbody><tr>
+                                                      <td style="text-align: center;" width="6%">
+                                                            AB
+                                                        </td>
+                                                        
+                                                       <td style="text-align: center;" width="7%">
+                                                            AA
+                                                        </td>
+                                                        
+                                                        <td style="text-align: center;" width="6%">
+                                                            AA
+                                                        </td>
+                                                    </tr>
+                                                </tbody></table>
+                                            </td>
+                                            <td width="18%">
+                                                AA
+                                            </td>
+                                        </tr>
+                                    
+                            </tbody></table>
+                        
+</div>
+                        <table class="Rgrid">
+                            <tbody><tr>
+                                <td>
+                                    Current Sem. Backlog:
+                                    <span id="lblCUPBack" class="csstotal">0</span>
+                                </td>
+                                <td>
+                                    Total Backlog:
+                                    <span id="lblTotalBack" class="csstotal">0</span>
+                                </td>
+                                <td>
+                                    SPI:
+                                    <span id="lblSPI" class="csstotal">7.13</span>
+                                </td>
+                                <td id="tdcpa">
+                                    CPI:
+                                    <span id="lblCPI" class="csstotal">7.33</span>
+                                </td>
+
                                 
-        </div>
+                                
+                            </tr>
+                        </tbody></table>
+                        
+                        
+                        
+                        <div>
+                            <table id="tbRecheck" class="Rgrid">
+	<tbody><tr>
+		<td>
+                                        Online Re-Check/Re-Assessment/Answersheet Viewing: from <b>31-08-2024</b> to <b>03-09-2024</b>
+                                        <a href="Students%20Guideline.pdf" target="_blank">Students
+                                            Guide</a>
+                                        <br>
+                                        <div style="font-size: 10px; color: Gray;">
+                                            please send recheck query to respected department [BE,BPharm,PDDC,HM – be@gtu.edu.in]
+                                            [Diploma, DiplPharm – diploma@gtu.edu.in] [ME,MPH,MBA,MCA – pg@gtu.edu.in]. <a href="https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/NOtification96_GTU_Reassessment%20rules_658181.pdf" target="_blank">Rules of Reassessment</a>
+                                        </div>
+                                    </td>
+		<td>
+                                        <input type="submit" name="btnRecheck" value="Apply for Recheck" id="btnRecheck" class="btn">
+                                        <input type="submit" name="btnReassess" value="Apply for ReAssessment" id="btnReassess" class="btn">
+                                        
+                                    </td>
+	</tr>
+</tbody></table>
+
+                        </div>
+                        
+                        <table width="100%" class="msghide">
+                            <tbody><tr>
+                                <td style="height: 10px;" colspan="2">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left;" width="50%">
+                                    <span style="color: Maroon">Note : </span>This is a computer generated mark-sheet.
+                                </td>
+                                <td style="text-align: right;">
+                                    <b>Printed On :
+                                        Tuesday, September 3, 2024 - 1:56:06 PM
+                                    </b>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="SlineG" colspan="2">
+                                </td>
+                            </tr>
+                        </tbody></table>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <table class="tblLast">
+                            <tbody><tr>
+                                <td align="center" class="Result NR">
+                                    <span id="lblmsg" class="Result Pass">Congratulation!! You have<b> passed</b> this exam.</span>
+                                    
+                                    <br>
+                                    <br>
+                                    <div style="text-align: center; font-size: 11px; color:Purple; border-top: 1px dashed gray">
+                                        This is a Computer generated provisional result, please consider the Hard-copy Gradesheet
+                                        as final result.
+                                    </div>
+                                    <div style="text-align: center; font-size: 11px; color:Purple; border-top: 1px dashed gray">
+                                        Result queries will be entertained till 15-days from the Result declaration date. 
+                                        No result queries will be entertained afterword. 
+                                    </div>
+                                    <div><br></div>
+                                     <div style="text-align: center; font-size: 11px;  border-top: 1px dashed gray">
+                                        GTU's Official Instagram Page: <a href="https://www.instagram.com/gtumedia?r=nametag">https://www.instagram.com/gtumedia?r=nametag</a><br>
+                                        GTU's Official YouTube Channel: <a href="https://www.youtube.com/c/GujaratTechnologicalUniversity">https://www.youtube.com/c/GujaratTechnologicalUniversity</a>
+                                    </div>
+                                    <div style="text-align: center; font-size: 10px; color: gray; border-top: 1px dashed gray">
+                                        Security code: d4e25d29-50a0-4e90-8fa2-d645bf226467 | URL: http://www.gturesults.in/default.aspx | Date: Tuesday, September 3, 2024 - 1:56 PM  | IP : 42.108.196.125
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody></table>
+                    </td>
+                </tr>
+                
+                
+                <tr align="center" style="display: none;">
+                    <td colspan="2">
+                        Last Updated on-
+                        
+                    </td>
+                </tr>
+            </tbody></table>
+        </center>
+    </div>
                                 <table class="Rgrid">
                                     <tbody><tr>
                                         <td>
